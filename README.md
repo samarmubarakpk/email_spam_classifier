@@ -2,6 +2,11 @@
 Email Spam Classifier
 This project is a simple email spam classifier that uses a Naive Bayes model and a TF-IDF vectorizer to classify emails as Spam or Ham (Not Spam). The classifier can be used through a web application built with Streamlit.
 
+Dataset
+The dataset used for this project was imbalanced, with a significantly lower number of spam emails compared to ham emails. To address this issue, I applied upsampling techniques to balance the dataset, ensuring that the classifier performs better on both classes.
+publically availble dataset from kaggle 
+https://www.kaggle.com/datasets/ashfakyeafi/spam-email-classification
+
 Features
 Classify emails as Spam or Ham.
 Upload and classify multiple emails from a CSV file.
