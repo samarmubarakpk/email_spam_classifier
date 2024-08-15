@@ -19,15 +19,13 @@ Conda or virtualenv for creating a virtual environment
 Clone the Repository
 First, clone this repository to your local machine:
 
-bash
-Copy code
+
 git clone https://github.com/samarmubarakpk/email_spam_classifier.git
 cd email_spam_classifier
 Create a New Environment
 Create a new virtual environment and activate it:
 
-bash
-Copy code
+
 # Using Conda
 conda create -n spam_classifier_env 
 conda activate spam_classifier_env
@@ -38,21 +36,18 @@ source spam_classifier_env/bin/activate  # On Windows use `spam_classifier_env\S
 Install Dependencies
 Install the required libraries using the requirements.txt file:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 Adjust Paths
 Make sure to adjust the paths in the code for loading the model and vectorizer, as needed. Update the following lines in your code:
 
-python
-Copy code
+
 model = joblib.load('path_to_your_model/naive_bayes_model.pkl')
 vectorizer = joblib.load('path_to_your_vectorizer/tfidf_vectorizer.pkl')
 Run the Application
 Finally, run the Streamlit application:
 
-bash
-Copy code
+
 streamlit run main.py
 
 Usage
