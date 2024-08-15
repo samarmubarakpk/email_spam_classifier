@@ -21,7 +21,7 @@ First, clone this repository to your local machine:
 
 bash
 Copy code
-git clone https://github.com/your-username/email_spam_classifier.git
+git clone https://github.com/samarmubarakpk/email_spam_classifier.git
 cd email_spam_classifier
 Create a New Environment
 Create a new virtual environment and activate it:
